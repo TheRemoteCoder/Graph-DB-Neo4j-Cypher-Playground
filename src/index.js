@@ -6,5 +6,29 @@ const driver = neo4j.driver(
 )
 
 
+// ----------------------------------------------------------------------------------------- Session
+
+const rxSession = driver.rxSession();
+
+rxSession
+  .run('', {})
+  .subscribe({
+    onKeys: keys => {
+      console.log(keys);
+    },
+    onNext: record => {
+      console.log(record.get(''));
+    },
+    onCompleted: () => {
+      rxSession.close();
+    },
+    onError: error => {
+      console.log(error);
+    }
+  });
+
+
+// --------------------------------------------------------------------------------------------- END
+
 driver.close();
 
