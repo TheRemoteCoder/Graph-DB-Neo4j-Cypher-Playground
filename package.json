@@ -9,6 +9,9 @@
     "project:clean": "rm -rf dist",
     "project:reset": "rm -rf node_modules"
   },
+  "dependencies": {
+    "neo4j-driver": "^4.2.3"
+  },
   "devDependencies": {
     "eslint": "^7.24.0",
     "eslint-config-airbnb": "^18.2.0",
@@ -25,8 +28,5 @@
     "prettier": "^2.2.1",
     "prettier-eslint": "^11.0.0",
     "ts-jest": "^26.5.4"
-  },
-  "dependencies": {
-    "neo4j-driver": "^4.2.3"
   }
 }
