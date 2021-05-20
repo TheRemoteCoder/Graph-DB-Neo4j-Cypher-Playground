@@ -180,3 +180,7 @@ Procfile    text
 ## EXECUTABLES
 *.exe binary
 *.pyc binary
+
+## TEXT
+*.xls  binary
+*.xlsx binary
