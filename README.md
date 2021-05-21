@@ -1,6 +1,7 @@
 ## Graph DB query tests - Neo4j + Cypher
 
 - [About](#about)
+- [Todo](#todo)
 - [Sources](#sources)
 
 <br>
@@ -12,6 +13,16 @@
 ## About
 
 ...
+
+<br>
+
+---
+
+<br><br>
+
+## Todo
+
+- Find out correct access for Desktop server (URL, port, authentication)
 
 <br>
 
