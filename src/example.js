@@ -1,11 +1,12 @@
-const neo4j = require('neo4j-driver')
+const neo4j = require('neo4j-driver');
 
-const uri     = 'neo4j://localhost';
+
+const uri      = 'neo4j://localhost'; // bolt://localhost
 const user     = 'neo4j';
 const password = 'password';
 
-const driver  = neo4j.driver(uri, neo4j.auth.basic(user, password));
-const session = driver.session();
+const driver   = neo4j.driver(uri, neo4j.auth.basic(user, password));
+const session  = driver.session();
 
 
 async function start() {
