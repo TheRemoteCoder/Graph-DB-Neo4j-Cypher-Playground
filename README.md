@@ -12,7 +12,7 @@
 
 ## About
 
-Run any script with `node src/*.js`
+Run any script with `node src/*.js`.
 
 <br>
 
