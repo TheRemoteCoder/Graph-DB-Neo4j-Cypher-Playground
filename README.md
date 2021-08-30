@@ -12,7 +12,7 @@
 
 ## About
 
-...
+Run any script with `node src/*.js`
 
 <br>
 
@@ -33,4 +33,3 @@
 ## Sources
 
 - [JS Driver](https://neo4j.com/docs/api/javascript-driver/current)
-
