@@ -4,13 +4,17 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "node src/index.js",
+    "start:graphql": "node src/graphql.js",
     "format": "prettier \"src/**/*.js\" --write",
     "lint": "npx eslint \"src/**/*.js\"",
     "project:clean": "rm -rf dist",
     "project:reset": "rm -rf node_modules"
   },
   "dependencies": {
-    "neo4j-driver": "^4.2.3"
+    "@neo4j/graphql": "^2.5.4",
+    "apollo-server": "^3.5.0",
+    "graphql": "^16.2.0",
+    "neo4j-driver": "^4.4.1"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
